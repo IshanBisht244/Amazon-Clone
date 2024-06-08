@@ -110,6 +110,13 @@ span {
     align-items: center;
     justify-content: space-evenly;
 }
+.amazon-link {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  .amazon-link:hover {
+    color: #23527c;
+  }
 .panel-ops p {
     display: inline;
     margin-left: 15px;
@@ -150,6 +157,23 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+}
+.shop_section .box {
+  width: 200px;
+  height: 200px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.shop_section .box:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.shop_section:hover .box:not(:hover) {
+  opacity: 0.5;
 }
 .box {
     height: 400px;
